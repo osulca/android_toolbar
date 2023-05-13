@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-   /* @Override
+    @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.opcion1){
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }*/
+    }
 
     public void open2(View view) {
         Intent i = new Intent(MainActivity.this, MainActivity2.class);
